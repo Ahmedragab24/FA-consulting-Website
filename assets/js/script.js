@@ -59,7 +59,7 @@ window.addEventListener("scroll", function () {
 
 /*============================================= SWIPER TESTIMONIAL =====================================*/
 
-let swiperTestimonial = new Swiper(".testimonial--container", {
+let swiperTestimonial = new Swiper(".testimonial--container , .sponsor__container", {
   spaceBetween: 24,
   loop: true,
   grabCursor: true,
@@ -86,3 +86,6 @@ let swiperTestimonial = new Swiper(".testimonial--container", {
       },
   },
 });
+
+
+
